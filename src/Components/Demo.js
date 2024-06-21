@@ -1,8 +1,9 @@
-function Demo () {
+function Demo() {
     return (
         <div className="card">
-            <h3>This is Component</h3>
-            <p>This is demo paragraph text</p>
+            <div className="card-img"></div>
+            <h3 className="card-title">This is Component</h3>
+            <p className="desc">This is demo paragraph text</p>
         </div>
     );
 }

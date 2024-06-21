@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Test from './Components/Demo';
-
+import Demo from './Components/Demo'
+  
 let name = 'Pranjal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,9 +16,9 @@ root.render(
 
     <h1 className='title'>React JS: </h1>
 
-    <Test />
-    <Test />
-    <Test />
+    <Demo />
+    <Demo />
+    <Demo /> 
   </div>
 );
 
